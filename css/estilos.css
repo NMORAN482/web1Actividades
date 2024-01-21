@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+body{
+	
+	background-color:rgb(200,200,200);
+}
+header,main,footer{
+	width:80%;
+	margin:auto;
+	padding:20px;
+	background:#ffffb0;
+}
+header,footer{
+	text-align:center;
+}
+article{
+	margin-bottom:20px;
+	border-bottom:2px;
+	padding-bottom:22px;
+	font-family:tahoma;
+	text-align:justify;	
+	display: inline-block;
+}
+article img{
+	overflow-clip-margin: content-box;
+    overflow: clip;
+    overflow-x:50px ;
+    overflow-y:50px ;
+	width:150px;
+	float:lefth;
+	margin-right:20px;
+	margin-bottom:20px;
+	
+	
+}
